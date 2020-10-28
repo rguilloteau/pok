@@ -22,6 +22,7 @@ sizes.c
 venv
 testsuite/unitary_tests/report.xml
 generated-code/
+builddir/
 *.gdbinit
 GPATH
 GRTAGS

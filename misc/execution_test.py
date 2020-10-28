@@ -13,6 +13,7 @@
 from avocado import Test, fail_on
 from avocado.utils import build, process
 import os
+from time import sleep
 
 
 class ExecutionTest(Test):
@@ -44,3 +45,18 @@ class ExecutionTest(Test):
             expected = b""
         self.log.debug("expected = {}".format(expected))
         self.assertEqual(output, expected)
+
+class CoucouTest(Test):
+    def test(self):
+        sleep(3)
+        return 0
+
+class Coucou2Test(Test):
+    def test(self):
+        sleep(3)
+        return 0
+
+class Coucou3Test(Test):
+    def test(self):
+        sleep(3)
+        return 0

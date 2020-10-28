@@ -1,0 +1,12 @@
+[binaries]
+c = 'cc'
+
+[properties]
+c_args = ['-m32']
+c_link_args = ['-m32']
+
+[host_machine]
+system = 'pok'
+cpu_family = 'x86'
+cpu = 'i686'
+endian = 'little'

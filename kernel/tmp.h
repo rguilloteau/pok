@@ -1,0 +1,1 @@
+#define POK_CONFIG_NB_PROCESSORS 1

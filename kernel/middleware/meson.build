@@ -1,0 +1,23 @@
+src_c += files([
+    'portqueueingcreate.c',
+	'portqueueingsend.c',
+	'portqueueingreceive.c',
+	'portqueueingid.c',
+	'portqueueingstatus.c',
+	'portsamplingcreate.c',
+	'portsamplingid.c',
+	'portsamplingread.c',
+	'portsamplingwrite.c',
+	'portsamplingstatus.c',
+	'portvirtualid.c',
+	'portvirtualnbdestinations.c',
+	'portvirtualdestination.c',
+	'portvirtualgetglobal.c',
+	'portflushall.c',
+	'portinit.c',
+	'portcreate.c',
+	'portutils.c',
+	'portvirtualutils.c',
+	'queueinit.c',
+	'ressources.c'
+])

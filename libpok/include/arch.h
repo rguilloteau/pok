@@ -13,6 +13,7 @@
  */
 
 #ifndef __LIBPOK_ARCH_H__
+#define __LIBPOK_ARCH_H__
 
 #include <types.h>
 
