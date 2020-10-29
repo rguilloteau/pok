@@ -8,8 +8,7 @@ add_project_arguments(c_flags, language : 'c')
 
 add_project_arguments('-DPOK_ARCH_X86', language : 'c')
 
-src_c=[]
-src_asm=[]
+src=[]
 
 subdir('arch')
 subdir('core')
@@ -17,17 +16,9 @@ subdir('drivers')
 subdir('libc')
 subdir('middleware')
 
-kernel_asm = static_library(
-    'kernel_asm',
-    c_args: ['-include', tmp_h],
-    include_directories : inc,
-    sources : src_asm
-)
-
 static_library(
     'kernel',
     c_args: ['-include', depl],
     include_directories : inc,
-    sources : src_c,
-    link_with : kernel_asm
+    sources : src,
 )

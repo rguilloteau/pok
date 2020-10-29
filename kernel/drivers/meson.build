@@ -1,3 +1,3 @@
-src_c += files([
+src += files([
     'rtl8029.c'
 ])

@@ -1,4 +1,4 @@
-src_c += files([
+src += files([
     'portqueueingcreate.c',
 	'portqueueingsend.c',
 	'portqueueingreceive.c',

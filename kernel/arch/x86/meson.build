@@ -1,4 +1,4 @@
-src_c += files([
+src += files([
     'ap.c',
     'arch.c',
     'divisionbyzeroerror.c',
@@ -10,12 +10,9 @@ src_c += files([
     'multiprocessing.c',
     'pci.c',
     'space.c',
+    'start_ap.S',
     'syscalls.c',
-    'thread.c'])
-
-src_asm +=files([
-    'start_ap.S'
+    'thread.c'
 ])
-
 
 subdir('x86-qemu')

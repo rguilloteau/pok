@@ -1,4 +1,4 @@
-src_c += files([
+src += files([
     'partition.c',
 	'debug.c',
 	'kernel.c',

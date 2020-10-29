@@ -1,12 +1,9 @@
-src_c+= files([
+src += files([
     'cons.c',
     'bsp.c',
+    'entry.S',
     'pm.c',
     'pic.c',
     'pit.c',
     'shutdown.c'
-])
-
-src_asm += files([
-    'entry.S'
 ])
