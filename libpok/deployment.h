@@ -11,7 +11,7 @@
 #define POK_CONFIG_PARTITIONS_NLOCKOBJECTS                                     \
   { 1, 0 }
 #define POK_CONFIG_PARTITIONS_NTHREADS                                         \
-  { 3, 2 }
+  { 2, 3 }
 #define POK_CONFIG_PARTITIONS_SIZE                                             \
   { 122880, 122880 }
 #define POK_CONFIG_PROCESSOR_AFFINITY                                          \

@@ -11,3 +11,5 @@
  *
  *                                      Copyright (c) 2007-2020 POK team
  */
+
+#include <libc/string.h>

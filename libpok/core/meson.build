@@ -17,6 +17,7 @@ src += files([
 			'errorhandlerworker.c',
 			'errorignore.c',
 			'errorconfirm.c',
+			'main.c',
 			'mutexcreate.c',
 			'mutextrylock.c',
 			'mutexlock.c',
