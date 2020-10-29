@@ -8,11 +8,13 @@ inc = include_directories(libpok_folder+'/include')
 
 src_part = ['main.c', 'activity.c']
 
-subdir(libpok_folder)
+if not libpok_visited
+    subdir(libpok_folder)
+    libpok_visited = true
+endif
 
 part = executable('pr1.elf',
-    sources : src_part,
-    link_with : libpok,
+    sources : [src_part, src],
     include_directories : inc,
     c_args: ['-include', depl],
     link_args : ['-Wl,-m,elf_i386,-no-dynamic-linker', '-T', '/home/rguilloteau/stage/pok/misc/ldscripts/x86/x86-qemu/partition.lds']
