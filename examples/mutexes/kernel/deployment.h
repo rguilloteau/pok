@@ -8,6 +8,8 @@
 #define POK_CONFIG_NB_PARTITIONS 2
 #define POK_CONFIG_NB_PROCESSORS 1
 #define POK_CONFIG_NB_THREADS 7
+
+#ifndef __ASSEMBLER__
 #define POK_CONFIG_PARTITIONS_NLOCKOBJECTS                                     \
   { 1, 0 }
 #define POK_CONFIG_PARTITIONS_NTHREADS                                         \
@@ -41,4 +43,5 @@ typedef enum { pok_part_id_pr1 = 0, pok_part_id_pr2 = 1 } pok_part_id_t;
 
 typedef enum { pok_nodes_node1 = 0 } pok_node_id_t;
 
+#endif
 #endif // __POK_KERNEL_GENERATED_DEPLOYMENT_H_

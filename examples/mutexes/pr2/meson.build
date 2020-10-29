@@ -1,5 +1,5 @@
 libpok_folder = 'libpok'
-depl = '../pr1/deployment.h'
+depl = '../deployment.h'
 
 pok_path = '../../../'
 run_command('ln', '-s', pok_path+libpok_folder, libpok_folder)
@@ -10,7 +10,7 @@ src_part = ['main.c', 'activity.c']
 
 subdir(libpok_folder)
 
-part = executable('pr1.elf',
+part = executable('pr2.elf',
     sources : src_part,
     link_with : libpok,
     include_directories : inc,
