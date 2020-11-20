@@ -16,3 +16,5 @@ Contact: pok at gunnm dot org
 This fork is a snapshot of the private repository at the end of my internship. It is more recent than the public GitHub repository. However, I will not support this fork. It also contains my internship report (in french) if you want more details about my work in this project.
 
 There are two branches: master and new_tests. The last branch contains work on meson I didn't have time to finish.
+
+I mainly worked on the multiprocessing transition but also on the ARINC653 examples and API.
