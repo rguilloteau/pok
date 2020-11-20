@@ -12,3 +12,7 @@ More information on https://pok-kernel.github.io/
 For commercial support: http://www.reblochon.io.
 
 Contact: pok at gunnm dot org
+
+# Context
+
+This fork is a snapshot of the private repository at the end of my internship. It is more recent than the public GitHub repository. However, I will not support this fork. It also contains my internship report (in french) if you want more details about my work in this project.
